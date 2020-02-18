@@ -1,0 +1,69 @@
+.nav-border {
+  border-bottom: 10.5px solid #ffc107;
+}
+
+.nav-border a {
+  min-width: 10%;
+}
+
+.slant-text {
+  font-family: 'Courgette', cursive;
+}
+
+.dropdown:hover>.navbarDropdown {
+  border-bottom: 5px solid #ffc107;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  top: 100%;
+  border-top: 0px;
+}
+
+.dropdown>.dropdown-menu>.dropdown-item:hover {
+  background-color: #fec143;
+}
+
+.divider {
+  border-color: #000000
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 40vh;
+}
+
+#m_01_button {
+  background-color: #ffffff;
+  border: none
+}
+
+.infomation_height {
+  min-height: 814px;
+}
+
+.btn-border {
+  border: none;
+}
+
+.btn_pocu {
+  background-color: #7db2ea;
+}
+
+.btn_our_courses {
+  background-color: #99f1ad;
+}
+
+.sm_ef_ci {
+  background-color: #174771;
+}
+
+.btn_ef:hover {
+  background-color: #174771;
+}
+
+@media (max-width: 767px) {
+  .dropdown:hover>.navbarDropdown {
+    border-bottom: 0px;
+  }
+}
